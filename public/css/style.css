@@ -33,6 +33,10 @@ body {
     color: #fff;
 }
 
+.connect-button {
+    background-color: #00dc30;
+}
+
 @media screen and (max-width: 400px) {
     .navbar-brand {
         font-size: 1.8rem;
@@ -41,7 +45,7 @@ body {
 }
 
 .content-section {
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .content-section h1 {
@@ -88,4 +92,20 @@ hr {
     border-top: 10px dotted white;
     margin-bottom: 5vh;
     size: 1rem;
+}
+
+.btn-lg{
+    display: block;
+}
+
+#floatingTextarea1, #floatingTextarea2{
+    height: 100px;
+}
+
+.fa-badge-check {
+    color: #00dc30;
+}
+
+.events-cards {
+    max-width: 80vw;
 }
